@@ -1,9 +1,9 @@
 ## Terraform 
 Before using Infrastructure as Code (IaC), managing infrastructure was a lot of manual work Here  how things used to be:
-•	Manual Server Setup: We had to set up servers and other resources manually, which sometimes caused mistakes or differences between environments
-•	Too Much Documentation: We had to write and follow long documents to repeat the setup steps, but those documents often became outdated
-•	Basic Automation Only: We used simple scripts, but they didn’t give us the flexibility or control we get today
-•	Slow Process: Setting up new environments or resources used to take a lot of time because everything was done step by step manually
+Manual Server Setup: We had to set up servers and other resources manually, which sometimes caused mistakes or differences between environments
+Too Much Documentation: We had to write and follow long documents to repeat the setup steps, but those documents often became outdated
+Basic Automation Only: We used simple scripts, but they didn’t give us the flexibility or control we get today
+Slow Process: Setting up new environments or resources used to take a lot of time because everything was done step by step manually
 
 
 
