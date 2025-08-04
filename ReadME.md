@@ -5,10 +5,15 @@ Before using Infrastructure as Code (IaC), managing infrastructure was a lot of 
 •	Basic Automation Only: We used simple scripts, but they didn’t give us the flexibility or control we get today
 •	Slow Process: Setting up new environments or resources used to take a lot of time because everything was done step by step manually
 
+
+
+
 Now, with IaC tools like Terraform, CloudFormation, and others
 •	We can write the setup as code and reuse it whenever needed
 •	It saves time, avoids mistakes and makes the setup more reliable
 •	Changes are easy to track and manage just like code
+
+
 
 
 why we using Terraform instead of other IaC tools:
@@ -19,6 +24,8 @@ why we using Terraform instead of other IaC tools:
 •	Preview Before Changes: Before making any changes, Terraform lets me run terraform plan to see what will happen. That way, I can double-check everything before applying it.
 •	Works Well with Other Tools: I can connect Terraform with tools like Jenkins, Docker, Kubernetes, and Ansible. This helps build full automation pipelines easily.
 •	Simple Language (HCL): The language it uses is easy to read and write, even for someone who’s not a full-time developer. That makes it easier for teams to collaborate.
+
+
 
 
 Installation:
@@ -44,6 +51,7 @@ sudo apt install terraform -y
 
 Step 7: Verify The Installation 
 terraform -version
+
 
 
 
